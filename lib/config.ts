@@ -1,9 +1,9 @@
 export const config = {
   // Embeddings (Gemini free tier, 1536 to match your migration)
   embedding: {
-    provider: "google" as const,
-    model: "gemini-embedding-001",
-    dimensions: 1536,
+    provider: "jina" as const,
+    model: "jina-embeddings-v3",
+    dimensions: 1024,
   },
 
   // Chat LLM
