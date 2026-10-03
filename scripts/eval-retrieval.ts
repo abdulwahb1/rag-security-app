@@ -71,7 +71,7 @@ for (const q of questions) {
     top_headers: headers,
   });
 
-  await Bun.sleep(300); // be nice to Jina
+  await new Promise((resolve) => setTimeout(resolve, 300)); // be nice to Jina
 }
 
 const hitAt5 = hits / scored;

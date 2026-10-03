@@ -8,6 +8,8 @@ import { loadRawDocs } from "../lib/ingest/load-files";
 const BATCH = 8;
 const docs = loadRawDocs();
 
+const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+
 for (const [i, doc] of docs.entries()) {
   console.log(`[${i + 1}/${docs.length}] ${doc.path}`);
 
@@ -25,7 +27,7 @@ for (const [i, doc] of docs.entries()) {
   if (docErr) throw docErr;
 
   for (let start = 0; start < chunks.length; start += BATCH) {
-    await Bun.sleep(500);
+    await sleep(500);
     const slice = chunks.slice(start, start + BATCH);
     const texts = slice.map((c) => `${c.context_header}\n\n${c.content}`);
     const vectors = await embedTexts(texts);
