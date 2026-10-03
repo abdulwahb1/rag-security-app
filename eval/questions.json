@@ -1,0 +1,128 @@
+[
+  {
+    "id": "q001",
+    "question": "How do I enable CORS in NestJS?",
+    "expected_answer": "Call app.enableCors() on the Nest application object.",
+    "expected_source_chunks": ["CORS > Getting started", "CORS"],
+    "type": "how-to"
+  },
+  {
+    "id": "q002",
+    "question": "Which OWASP API category covers broken object level authorization?",
+    "expected_answer": "API1:2023 Broken Object Level Authorization",
+    "expected_source_chunks": ["API1:2023 Broken Object Level Authorization"],
+    "type": "lookup"
+  },
+  {
+    "id": "q003",
+    "question": "What is API7 in the OWASP API Security Top 10 2023?",
+    "expected_answer": "Server Side Request Forgery (SSRF)",
+    "expected_source_chunks": ["API7:2023 Server Side Request Forgery"],
+    "type": "lookup"
+  },
+  {
+    "id": "q004",
+    "question": "How do I get started with security headers in NestJS?",
+    "expected_answer": "Call app.useSecurityHeaders() on the Nest application object.",
+    "expected_source_chunks": ["Security headers > Getting started", "Security headers"],
+    "type": "how-to"
+  },
+  {
+    "id": "q005",
+    "question": "How do I use the built-in ValidationPipe in NestJS?",
+    "expected_answer": "Use ValidationPipe for schema-based request validation.",
+    "expected_source_chunks": [
+      "Validation > Using the built-in ValidationPipe",
+      "Validation > Overview",
+      "Validation"
+    ],
+    "type": "how-to"
+  },
+  {
+    "id": "q006",
+    "question": "How does rate limiting work in NestJS?",
+    "expected_answer": "NestJS throttler / rate limiting module configuration.",
+    "expected_source_chunks": ["Rate Limiting", "Rate Limiting > Configuration"],
+    "type": "how-to"
+  },
+  {
+    "id": "q007",
+    "question": "What are guards used for in NestJS?",
+    "expected_answer": "Guards determine whether a request should be handled by the route handler.",
+    "expected_source_chunks": ["Guards", "Guards > Binding guards"],
+    "type": "lookup"
+  },
+  {
+    "id": "q008",
+    "question": "How do I bind a guard in NestJS?",
+    "expected_answer": "Bind guards with @UseGuards or as a global/app guard.",
+    "expected_source_chunks": ["Guards > Binding guards", "Guards"],
+    "type": "how-to"
+  },
+  {
+    "id": "q009",
+    "question": "What does API2 Broken Authentication mean in OWASP API Security 2023?",
+    "expected_answer": "Authentication mechanisms implemented incorrectly, allowing attackers to compromise tokens or identities.",
+    "expected_source_chunks": [
+      "API2:2023 Broken Authentication",
+      "API2:2023 Broken Authentication > Is the API Vulnerable?"
+    ],
+    "type": "lookup"
+  },
+  {
+    "id": "q010",
+    "question": "How can I prevent unrestricted resource consumption in APIs?",
+    "expected_answer": "Limit request rates, payloads, and expensive operations (API4 how to prevent).",
+    "expected_source_chunks": [
+      "API4:2023 Unrestricted Resource Consumption > How To Prevent",
+      "API4:2023 Unrestricted Resource Consumption"
+    ],
+    "type": "how-to"
+  },
+  {
+    "id": "q011",
+    "question": "What is broken function level authorization in OWASP API Top 10?",
+    "expected_answer": "API5:2023 Broken Function Level Authorization",
+    "expected_source_chunks": ["API5:2023 Broken Function Level Authorization"],
+    "type": "lookup"
+  },
+  {
+    "id": "q012",
+    "question": "How do I register the NestJS authentication module?",
+    "expected_answer": "Register the authentication module in the Nest app module.",
+    "expected_source_chunks": [
+      "Authentication > Register the authentication module",
+      "Authentication > Installation",
+      "Authentication"
+    ],
+    "type": "how-to"
+  },
+  {
+    "id": "q013",
+    "question": "What is security misconfiguration for APIs according to OWASP?",
+    "expected_answer": "API8:2023 Security Misconfiguration",
+    "expected_source_chunks": [
+      "API8:2023 Security Misconfiguration",
+      "API8:2023 Security Misconfiguration > Is the API Vulnerable?"
+    ],
+    "type": "lookup"
+  },
+  {
+    "id": "q014",
+    "question": "How do I write an authorization policy for products in NestJS?",
+    "expected_answer": "Write a policy class for products and register the authorization module.",
+    "expected_source_chunks": [
+      "Authorization > Write a policy for products",
+      "Authorization > Register the authorization module",
+      "Authorization"
+    ],
+    "type": "how-to"
+  },
+  {
+    "id": "q015",
+    "question": "What is the capital of France and current EUR to USD rate?",
+    "expected_answer": "Not covered by the corpus; retrieval should not find a strong relevant Nest/OWASP chunk.",
+    "expected_source_chunks": [],
+    "type": "unanswerable"
+  }
+]

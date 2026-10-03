@@ -1,0 +1,195 @@
+{
+  "variant": "vector-only-baseline",
+  "hit_at_5": 0.9285714285714286,
+  "mrr": 0.7999999999999999,
+  "scored": 14,
+  "results": [
+    {
+      "id": "q001",
+      "question": "How do I enable CORS in NestJS?",
+      "rank": 1,
+      "hit_at_5": true,
+      "top_headers": [
+        "CORS > Getting started",
+        "CORS",
+        "Authentication > Add sign-up and sign-in",
+        "Security headers > Getting started",
+        "Security headers"
+      ]
+    },
+    {
+      "id": "q002",
+      "question": "Which OWASP API category covers broken object level authorization?",
+      "rank": 1,
+      "hit_at_5": true,
+      "top_headers": [
+        "API1:2023 Broken Object Level Authorization > Is the API Vulnerable?",
+        "API1:2023 Broken Object Level Authorization > References > OWASP",
+        "API1:2023 Broken Object Level Authorization > References > External",
+        "API1:2023 Broken Object Level Authorization > Example Attack Scenarios > Scenario #1",
+        "API1:2023 Broken Object Level Authorization"
+      ]
+    },
+    {
+      "id": "q003",
+      "question": "What is API7 in the OWASP API Security Top 10 2023?",
+      "rank": null,
+      "hit_at_5": false,
+      "top_headers": [
+        "Introduction > Welcome to the OWASP API Security Top 10 - 2023!",
+        "Release Notes",
+        "Foreword",
+        "OWASP Top 10 API Security Risks – 2023",
+        "Methodology and Data > Overview"
+      ]
+    },
+    {
+      "id": "q004",
+      "question": "How do I get started with security headers in NestJS?",
+      "rank": 1,
+      "hit_at_5": true,
+      "top_headers": [
+        "Security headers > Getting started",
+        "Security headers",
+        "Security headers > Content Security Policy",
+        "Authentication",
+        "Authorization > Prerequisites"
+      ]
+    },
+    {
+      "id": "q005",
+      "question": "How do I use the built-in ValidationPipe in NestJS?",
+      "rank": 1,
+      "hit_at_5": true,
+      "top_headers": [
+        "Validation > Using the built-in ValidationPipe",
+        "Validation",
+        "Validation > Auto-validation",
+        "Validation > Schema-based validation",
+        "Validation > Explicit conversion"
+      ]
+    },
+    {
+      "id": "q006",
+      "question": "How does rate limiting work in NestJS?",
+      "rank": 2,
+      "hit_at_5": true,
+      "top_headers": [
+        "Authentication > Rate-limit sign-in",
+        "Rate Limiting",
+        "Rate Limiting > Storages",
+        "Rate Limiting > Migration Guide",
+        "Rate Limiting > WebSockets"
+      ]
+    },
+    {
+      "id": "q007",
+      "question": "What are guards used for in NestJS?",
+      "rank": 1,
+      "hit_at_5": true,
+      "top_headers": [
+        "Guards",
+        "Authorization > Register the authorization module",
+        "Authorization > Prerequisites",
+        "Authentication > GraphQL and WebSockets",
+        "Rate Limiting"
+      ]
+    },
+    {
+      "id": "q008",
+      "question": "How do I bind a guard in NestJS?",
+      "rank": 5,
+      "hit_at_5": true,
+      "top_headers": [
+        "Authorization > Write a policy for products",
+        "Authorization > Register the authorization module",
+        "Rate Limiting",
+        "Authorization > Write a policy for products",
+        "Guards"
+      ]
+    },
+    {
+      "id": "q009",
+      "question": "What does API2 Broken Authentication mean in OWASP API Security 2023?",
+      "rank": 1,
+      "hit_at_5": true,
+      "top_headers": [
+        "API2:2023 Broken Authentication > Is the API Vulnerable?",
+        "API2:2023 Broken Authentication > How To Prevent",
+        "OWASP Top 10 API Security Risks – 2023",
+        "API1:2023 Broken Object Level Authorization > Example Attack Scenarios > Scenario #1",
+        "API3:2023 Broken Object Property Level Authorization > Example Attack Scenarios > Scenario #1"
+      ]
+    },
+    {
+      "id": "q010",
+      "question": "How can I prevent unrestricted resource consumption in APIs?",
+      "rank": 1,
+      "hit_at_5": true,
+      "top_headers": [
+        "API4:2023 Unrestricted Resource Consumption > How To Prevent",
+        "API4:2023 Unrestricted Resource Consumption > Is the API Vulnerable?",
+        "API4:2023 Unrestricted Resource Consumption > Example Attack Scenarios > Scenario #1",
+        "API4:2023 Unrestricted Resource Consumption > Example Attack Scenarios > Scenario #2",
+        "API4:2023 Unrestricted Resource Consumption"
+      ]
+    },
+    {
+      "id": "q011",
+      "question": "What is broken function level authorization in OWASP API Top 10?",
+      "rank": 1,
+      "hit_at_5": true,
+      "top_headers": [
+        "API5:2023 Broken Function Level Authorization",
+        "API5:2023 Broken Function Level Authorization > Example Attack Scenarios > Scenario #1",
+        "API5:2023 Broken Function Level Authorization > Is the API Vulnerable?",
+        "API5:2023 Broken Function Level Authorization > How To Prevent",
+        "API1:2023 Broken Object Level Authorization > Is the API Vulnerable?"
+      ]
+    },
+    {
+      "id": "q012",
+      "question": "How do I register the NestJS authentication module?",
+      "rank": 1,
+      "hit_at_5": true,
+      "top_headers": [
+        "Authentication > Register the authentication module",
+        "Authentication > Register the authentication module",
+        "Authorization > Register the authorization module",
+        "Authentication > Installation",
+        "Authentication"
+      ]
+    },
+    {
+      "id": "q013",
+      "question": "What is security misconfiguration for APIs according to OWASP?",
+      "rank": 2,
+      "hit_at_5": true,
+      "top_headers": [
+        "OWASP Top 10 API Security Risks – 2023",
+        "API8:2023 Security Misconfiguration > Example Attack Scenarios > Scenario #1",
+        "API8:2023 Security Misconfiguration > How To Prevent",
+        "API8:2023 Security Misconfiguration > Is the API Vulnerable?",
+        "API8:2023 Security Misconfiguration > References > External"
+      ]
+    },
+    {
+      "id": "q014",
+      "question": "How do I write an authorization policy for products in NestJS?",
+      "rank": 1,
+      "hit_at_5": true,
+      "top_headers": [
+        "Authorization > Write a policy for products",
+        "Authorization > Write a policy for products",
+        "Authorization > Write a policy for products",
+        "Authorization",
+        "Authorization > Write a policy for products"
+      ]
+    },
+    {
+      "id": "q015",
+      "skipped": true,
+      "reason": "unanswerable"
+    }
+  ]
+}

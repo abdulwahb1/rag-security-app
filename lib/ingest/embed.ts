@@ -19,7 +19,7 @@ export async function embedTexts(
     },
     body: JSON.stringify({
       model: config.embedding.model,
-      task: "retrieval.passage",
+        task,
       dimensions: config.embedding.dimensions,
       input: texts,
     }),
