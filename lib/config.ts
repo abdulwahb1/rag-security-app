@@ -8,8 +8,9 @@ export const config = {
 
   // Chat LLM
   llm: {
-    provider: "xai" as const, // or "google" if you use Gemini for chat too
-    model: "grok-2-latest", // confirm current model id in xAI docs
+    provider: "groq" as const,
+    // llama-3.3-70b-versatile is deprecated on free/dev Groq tiers
+    model: "openai/gpt-oss-20b",
     temperature: 0.2,
   },
 
